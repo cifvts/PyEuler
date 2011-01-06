@@ -30,7 +30,8 @@ for j in range (2, LIMIT):
 print (int (result))
 
 """
-Second version, using a better approch
+Second version, using a better approch: in this case we calculate
+the maximum factor exponents using log function
 """
 
 def isPrime (x):
@@ -51,7 +52,7 @@ for i in range (3, LIMIT, 2):
 print (int (result))
 
 """
-Beautiful solution, from user EyeCon, found in projecteuler.net
+Beautiful solution from user EyeCon, found in projecteuler.net
 problem 5 forum. This is really interesting and useful for understand
 the possibilities of Python
 """
