@@ -13,4 +13,4 @@ while current < MAX:
     current = (current * 4) + ancestor
     ancestor = tmp
 
-print (result)
+print(result)

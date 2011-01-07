@@ -6,4 +6,4 @@ sum_sq = ((limit + 1) * limit) / 2
 sum_sq *= sum_sq
 sq_sum = (limit * (limit + 1) * ((limit * 2) + 1)) / 6
 
-print (int (sum_sq - sq_sum))
+print (int(sum_sq - sq_sum))

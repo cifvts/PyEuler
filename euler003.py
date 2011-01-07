@@ -10,4 +10,4 @@ while dividend > 1:
         dividend //= factor
     factor += 2
 
-print (factor - 2)
+print(factor - 2)
