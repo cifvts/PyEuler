@@ -8,7 +8,11 @@ LIMIT = 28134
 def isAbundant(n):
     max_t = floor(sqrt(n)) + 1
     sum_d = 1
-    for i in range(2, max_t):
+    if n % 2 == 0:
+        st, step = 2, 1
+    else:
+        st, step = 3, 2
+    for i in range(st, max_t, step):
         if n % i == 0:
             sum_d += i + n // i
         if i == n / i:
